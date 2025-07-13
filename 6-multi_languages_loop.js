@@ -1,5 +1,6 @@
-let expression =["C is fun", "Python is cool", "JavaScript is amazing"];
-for(let i=0; i<expression.length; i++){
+const expression =["C is fun", "Python is cool", "JavaScript is amazing"];
+let i=0;
+while(i < expression.length){
 console.log(expression[i]);
-
+i++;
 }
